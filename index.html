@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather forecast</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Anton&family=Patrick+Hand+SC&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="Stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+			integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="title">
+			<h1>Weather forecast</h1>
+			<i class="fas fa-cloud-sun"></i>
+		</div>
+
+		<div class="box">
+			<div class="location">
+				<h1 class="location-timezone"></h1>
+				<!-- <div class="icon"><img src="" alt="Weather icon" class="wicon" /></div> -->
+			</div>
+			<div class="temprature">
+				<div class="degree-section">
+					<h2 draggable="true" class="temprature-degree"></h2>
+					<span draggable="true">C</span>
+				</div>
+
+				<div class="temprature-desc"></div>
+			</div>
+
+			<div class="forecast">
+				<div class="days">
+					<p id="1" class="day">day</p>
+					<p id="2" class="day">day</p>
+					<p id="3" class="day">day</p>
+					<p id="4" class="day">day</p>
+					<p id="5" class="day">day</p>
+				</div>
+				<div class="days-temp">
+					<p id="1" class="max-min-temp">max/min</p>
+					<p id="2" class="max-min-temp">max/min</p>
+					<p id="3" class="max-min-temp">max/min</p>
+					<p id="4" class="max-min-temp">max/min</p>
+					<p id="5" class="max-min-temp">max/min</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="icons">
+				<a href="https://www.linkedin.com/in/saad-alessa-853315180/">
+					<i class="fab fa-linkedin"></i>
+				</a>
+				<a href="https://github.com/iSaad97">
+					<i class="fab fa-github"></i>
+				</a>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<script src="app.js"></script>
+	</body>
+</html>
