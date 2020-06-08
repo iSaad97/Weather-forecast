@@ -1,5 +1,5 @@
 # Weather-forecast
 
-Get your current location weather with openweathermap in Celsius and Fahrenheit*
+Get your current location weather with openweathermap in **Celsius** and **Fahrenheit**
 
-** Click on the temperature degree to change the unit 
+##### Clicking on the temperature degree changes the unit
